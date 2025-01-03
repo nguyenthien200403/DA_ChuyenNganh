@@ -1,0 +1,101 @@
+/* Căn giữa toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Header text */
+.header-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Định dạng cho các thẻ <label> */
+.form-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Cải tiến kiểu cho các ô input */
+.input-text {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #fafafa;
+  box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước ô input */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-text:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Tạo hiệu ứng sáng khi focus vào */
+}
+
+/* Định dạng cho nút đăng ký */
+.btn {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e60000;
+}
+
+/* Định dạng cho đường dẫn "Đăng nhập" */
+.sub-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.hover-link1 {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.hover-link1:hover {
+  text-decoration: underline;
+}
+
+/* Tạo khoảng cách giữa các phần tử */
+tr {
+  padding-bottom: 10px;
+}
+
+tr:last-child {
+  padding-bottom: 0;
+}
+
+/* Thêm khoảng cách giữa các ô input để dễ sử dụng */
+input,
+select {
+  margin-bottom: 15px;
+}

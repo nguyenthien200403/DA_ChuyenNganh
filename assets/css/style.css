@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.header {
+  height: 200px;
+  background-color: aquamarine;
+  line-height: 200px;
+  text-align: center;
+}
+
+.footer {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.content {
+  padding: 10px;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+
+.error {
+  padding: 10px;
+  background-color: rgb(223, 128, 128);
+  border: 1px red solid;
+  color: white;
+  margin: 10px 0px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+/*Nghiem*/
+.h_400px{
+  height: 400px;
+}
+.w_200px{
+  width: 200px;
+}

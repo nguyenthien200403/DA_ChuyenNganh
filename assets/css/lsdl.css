@@ -1,0 +1,70 @@
+/* Điều chỉnh độ rộng của các cột và làm cho bảng trở nên dễ nhìn */
+#adminServiceTable {
+  width: 100%;
+  border-collapse: collapse; /* Hợp nhất các viền của các ô trong bảng */
+  margin-top: 20px;
+}
+
+/* Căn chỉnh văn bản trong các ô */
+#adminServiceTable th,
+#adminServiceTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Tô đậm và thay màu nền của các tiêu đề cột */
+#adminServiceTable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Định dạng các ô có dữ liệu ngày */
+#adminServiceTable td {
+  font-size: 14px;
+}
+
+/* Thêm các hiệu ứng hover cho hàng khi di chuột qua */
+#adminServiceTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Căn chỉnh văn bản bên trái cho các cột không phải là số */
+#adminServiceTable td:not(:first-child) {
+  text-align: left;
+}
+
+/* Làm cho nút "Thêm mới" nổi bật */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/* Thêm hiệu ứng hover cho nút "Thêm mới" */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Điều chỉnh các ô "Trạng thái" để dễ nhận biết */
+.text-warning {
+  color: #ffc107;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.text-danger {
+  color: #dc3545;
+}
